@@ -1,4 +1,4 @@
-var improv=angular.module('improv',[]);
+var improv=angular.module('improv',['ngRoute']);
 
 improv.config(function($routeProvider){
 	routeProvider
