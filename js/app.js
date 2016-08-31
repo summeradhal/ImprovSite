@@ -1,4 +1,4 @@
-var improv=angular.module('improv',[]);
+var improv=angular.module('improv',['ngRoute']);
 
 improv.config(function($routeProvider){
 	routeProvider
@@ -9,7 +9,7 @@ improv.config(function($routeProvider){
 		}) //end of home
 
 		.when('/news',{
-			templateUrl: 'js/views/news.html',
+			templateUrl:'js/views/news.html',
 			controller: 'newsCtrl'
 		}) //end of news
 
